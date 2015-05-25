@@ -1,0 +1,1 @@
+PODS_CSJTOOLS_OTHER_LDFLAGS = -framework "CoreData"

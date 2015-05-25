@@ -1,0 +1,22 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - AFURLConnectionByteSpeedMeasure (1.0.1):
+    - AFNetworking (~> 1.0)
+  - CSJTools (0.0.7)
+  - SPLPing (1.1.3)
+  - Ubertesters (2.0.3)
+
+DEPENDENCIES:
+  - AFURLConnectionByteSpeedMeasure (~> 1.0.1)
+  - CSJTools (~> 0.0.7)
+  - SPLPing
+  - Ubertesters (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  AFURLConnectionByteSpeedMeasure: 587d627915375c464ff37d790d9ef7f224c35853
+  CSJTools: 5b46e4d3a82f99f3f562b451867f8cb2ec9d5410
+  SPLPing: d97607f5cf014bdc2af44f1f24138623243c7ed4
+  Ubertesters: 703e378604d52cf051f525a28c2d94bd501d9433
+
+COCOAPODS: 0.37.1

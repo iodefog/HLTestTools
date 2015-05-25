@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Ubertesters"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AFURLConnectionByteSpeedMeasure" "${PODS_ROOT}/Headers/Public/CSJTools" "${PODS_ROOT}/Headers/Public/SPLPing" "${PODS_ROOT}/Headers/Public/Ubertesters"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AFURLConnectionByteSpeedMeasure" -isystem "${PODS_ROOT}/Headers/Public/CSJTools" -isystem "${PODS_ROOT}/Headers/Public/SPLPing" -isystem "${PODS_ROOT}/Headers/Public/Ubertesters"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-AFNetworking" -l"Pods-AFURLConnectionByteSpeedMeasure" -l"Pods-CSJTools" -l"Pods-SPLPing" -framework "AdSupport" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "Foundation" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UbertestersSDK"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

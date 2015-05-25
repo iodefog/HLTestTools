@@ -1,0 +1,6 @@
+#include "Pods-CSJTools.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CSJTools" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AFURLConnectionByteSpeedMeasure" "${PODS_ROOT}/Headers/Public/CSJTools" "${PODS_ROOT}/Headers/Public/SPLPing" "${PODS_ROOT}/Headers/Public/Ubertesters"
+OTHER_LDFLAGS = ${PODS_CSJTOOLS_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

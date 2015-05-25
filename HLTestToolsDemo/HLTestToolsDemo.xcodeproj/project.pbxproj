@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9A2EDF89B0FE1BD06E3241 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5D9761693AB52F7883418D /* libPods.a */; };
+		4F339A721AC2C204002420C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339A711AC2C204002420C5 /* main.m */; };
+		4F339A751AC2C204002420C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339A741AC2C204002420C5 /* AppDelegate.m */; };
+		4F339A781AC2C204002420C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339A771AC2C204002420C5 /* ViewController.m */; };
+		4F339A7B1AC2C204002420C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F339A791AC2C204002420C5 /* Main.storyboard */; };
+		4F339A7D1AC2C204002420C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F339A7C1AC2C204002420C5 /* Images.xcassets */; };
+		4F339A801AC2C204002420C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F339A7E1AC2C204002420C5 /* LaunchScreen.xib */; };
+		4F339A8C1AC2C204002420C5 /* HLTestToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339A8B1AC2C204002420C5 /* HLTestToolsDemoTests.m */; };
+		4F339A981AC2C290002420C5 /* HLToolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339A971AC2C290002420C5 /* HLToolsTableViewController.m */; };
+		4F339AA61AC2C653002420C5 /* DownloadSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F339AA51AC2C653002420C5 /* DownloadSpeedViewController.m */; };
+		4F713D571B131DAC00D1165E /* HLPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F713D561B131DAC00D1165E /* HLPingViewController.m */; };
+		4FCA3DB71ACA9B8300743D07 /* DownSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DB61ACA9B8300743D07 /* DownSpeed.m */; };
+		4FCA3DBA1ACA9C1700743D07 /* MBBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DB91ACA9C1700743D07 /* MBBatteryMonitor.m */; };
+		4FCA3DBE1ACA9C2F00743D07 /* MBEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DBD1ACA9C2F00743D07 /* MBEvents.m */; };
+		4FCA3DBF1ACA9C2F00743D07 /* MBEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DBD1ACA9C2F00743D07 /* MBEvents.m */; };
+		4FCA3DC01ACA9C3400743D07 /* MBBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DB91ACA9C1700743D07 /* MBBatteryMonitor.m */; };
+		4FCA3DC51ACA9D3C00743D07 /* BatteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DC41ACA9D3C00743D07 /* BatteryViewController.m */; };
+		4FCA3DC61ACA9D3C00743D07 /* BatteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA3DC41ACA9D3C00743D07 /* BatteryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F339A861AC2C204002420C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F339A641AC2C204002420C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F339A6B1AC2C204002420C5;
+			remoteInfo = HLTestToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F339A6C1AC2C204002420C5 /* HLTestToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLTestToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F339A701AC2C204002420C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F339A711AC2C204002420C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F339A731AC2C204002420C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F339A741AC2C204002420C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F339A761AC2C204002420C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F339A771AC2C204002420C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F339A7A1AC2C204002420C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F339A7C1AC2C204002420C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F339A7F1AC2C204002420C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4F339A851AC2C204002420C5 /* HLTestToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLTestToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F339A8A1AC2C204002420C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F339A8B1AC2C204002420C5 /* HLTestToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTestToolsDemoTests.m; sourceTree = "<group>"; };
+		4F339A961AC2C290002420C5 /* HLToolsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLToolsTableViewController.h; sourceTree = "<group>"; };
+		4F339A971AC2C290002420C5 /* HLToolsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLToolsTableViewController.m; sourceTree = "<group>"; };
+		4F339AA41AC2C653002420C5 /* DownloadSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadSpeedViewController.h; sourceTree = "<group>"; };
+		4F339AA51AC2C653002420C5 /* DownloadSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadSpeedViewController.m; sourceTree = "<group>"; };
+		4F713D551B131DAC00D1165E /* HLPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPingViewController.h; sourceTree = "<group>"; };
+		4F713D561B131DAC00D1165E /* HLPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPingViewController.m; sourceTree = "<group>"; };
+		4FCA3DB51ACA9B8300743D07 /* DownSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownSpeed.h; sourceTree = "<group>"; };
+		4FCA3DB61ACA9B8300743D07 /* DownSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownSpeed.m; sourceTree = "<group>"; };
+		4FCA3DB81ACA9C1700743D07 /* MBBatteryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBBatteryMonitor.h; path = "../../../../../../Downloads/MBToolbox-master/Code/Battery/MBBatteryMonitor.h"; sourceTree = "<group>"; };
+		4FCA3DB91ACA9C1700743D07 /* MBBatteryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBBatteryMonitor.m; path = "../../../../../../Downloads/MBToolbox-master/Code/Battery/MBBatteryMonitor.m"; sourceTree = "<group>"; };
+		4FCA3DBB1ACA9C2800743D07 /* MBDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDebug.h; path = "../../../../../../Downloads/MBToolbox-master/Code/Common/MBDebug.h"; sourceTree = "<group>"; };
+		4FCA3DBC1ACA9C2F00743D07 /* MBEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBEvents.h; path = "../../../../../../Downloads/MBToolbox-master/Code/Events/MBEvents.h"; sourceTree = "<group>"; };
+		4FCA3DBD1ACA9C2F00743D07 /* MBEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBEvents.m; path = "../../../../../../Downloads/MBToolbox-master/Code/Events/MBEvents.m"; sourceTree = "<group>"; };
+		4FCA3DC11ACA9C6100743D07 /* MBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBService.h; path = "../../../../../../Downloads/MBToolbox-master/Code/Services/MBService.h"; sourceTree = "<group>"; };
+		4FCA3DC21ACA9CE600743D07 /* MBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBSingleton.h; path = "../../../../../../Downloads/MBToolbox-master/Code/Singleton/MBSingleton.h"; sourceTree = "<group>"; };
+		4FCA3DC31ACA9D3C00743D07 /* BatteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryViewController.h; sourceTree = "<group>"; };
+		4FCA3DC41ACA9D3C00743D07 /* BatteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryViewController.m; sourceTree = "<group>"; };
+		7A24C17C8AC11D59A858532C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D6CC2A6A9580C66C2D7B62 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AB5D9761693AB52F7883418D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F339A691AC2C204002420C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A2EDF89B0FE1BD06E3241 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F339A821AC2C204002420C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB6A1262FACB3F204C4CCF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D9761693AB52F7883418D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F339A631AC2C204002420C5 = {
+			isa = PBXGroup;
+			children = (
+				4F339A6E1AC2C204002420C5 /* HLTestToolsDemo */,
+				4F339A881AC2C204002420C5 /* HLTestToolsDemoTests */,
+				4F339A6D1AC2C204002420C5 /* Products */,
+				78E690ED995C60133D9ABE64 /* Pods */,
+				0BB6A1262FACB3F204C4CCF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F339A6D1AC2C204002420C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F339A6C1AC2C204002420C5 /* HLTestToolsDemo.app */,
+				4F339A851AC2C204002420C5 /* HLTestToolsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F339A6E1AC2C204002420C5 /* HLTestToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F339A731AC2C204002420C5 /* AppDelegate.h */,
+				4F339A741AC2C204002420C5 /* AppDelegate.m */,
+				4F339A761AC2C204002420C5 /* ViewController.h */,
+				4F339A771AC2C204002420C5 /* ViewController.m */,
+				4F339A951AC2C213002420C5 /* HLTestTools */,
+				4F339A791AC2C204002420C5 /* Main.storyboard */,
+				4F339A7C1AC2C204002420C5 /* Images.xcassets */,
+				4F339A7E1AC2C204002420C5 /* LaunchScreen.xib */,
+				4F339A6F1AC2C204002420C5 /* Supporting Files */,
+			);
+			path = HLTestToolsDemo;
+			sourceTree = "<group>";
+		};
+		4F339A6F1AC2C204002420C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F339A701AC2C204002420C5 /* Info.plist */,
+				4F339A711AC2C204002420C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F339A881AC2C204002420C5 /* HLTestToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F339A8B1AC2C204002420C5 /* HLTestToolsDemoTests.m */,
+				4F339A891AC2C204002420C5 /* Supporting Files */,
+			);
+			path = HLTestToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		4F339A891AC2C204002420C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F339A8A1AC2C204002420C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F339A951AC2C213002420C5 /* HLTestTools */ = {
+			isa = PBXGroup;
+			children = (
+				4FCA3DB41ACA9B8300743D07 /* ToosHelpers */,
+				4F339A961AC2C290002420C5 /* HLToolsTableViewController.h */,
+				4F339A971AC2C290002420C5 /* HLToolsTableViewController.m */,
+				4F713D551B131DAC00D1165E /* HLPingViewController.h */,
+				4F713D561B131DAC00D1165E /* HLPingViewController.m */,
+				4F339AA41AC2C653002420C5 /* DownloadSpeedViewController.h */,
+				4F339AA51AC2C653002420C5 /* DownloadSpeedViewController.m */,
+				4FCA3DC31ACA9D3C00743D07 /* BatteryViewController.h */,
+				4FCA3DC41ACA9D3C00743D07 /* BatteryViewController.m */,
+			);
+			name = HLTestTools;
+			path = ../../HLTestTools;
+			sourceTree = "<group>";
+		};
+		4FCA3DB41ACA9B8300743D07 /* ToosHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				4FCA3DB51ACA9B8300743D07 /* DownSpeed.h */,
+				4FCA3DB61ACA9B8300743D07 /* DownSpeed.m */,
+				4FCA3DC11ACA9C6100743D07 /* MBService.h */,
+				4FCA3DB81ACA9C1700743D07 /* MBBatteryMonitor.h */,
+				4FCA3DB91ACA9C1700743D07 /* MBBatteryMonitor.m */,
+				4FCA3DBB1ACA9C2800743D07 /* MBDebug.h */,
+				4FCA3DBC1ACA9C2F00743D07 /* MBEvents.h */,
+				4FCA3DBD1ACA9C2F00743D07 /* MBEvents.m */,
+				4FCA3DC21ACA9CE600743D07 /* MBSingleton.h */,
+			);
+			path = ToosHelpers;
+			sourceTree = "<group>";
+		};
+		78E690ED995C60133D9ABE64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A24C17C8AC11D59A858532C /* Pods.debug.xcconfig */,
+				A3D6CC2A6A9580C66C2D7B62 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F339A6B1AC2C204002420C5 /* HLTestToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F339A8F1AC2C204002420C5 /* Build configuration list for PBXNativeTarget "HLTestToolsDemo" */;
+			buildPhases = (
+				E381A8189A832EB60F86D0A6 /* Check Pods Manifest.lock */,
+				4F339A681AC2C204002420C5 /* Sources */,
+				4F339A691AC2C204002420C5 /* Frameworks */,
+				4F339A6A1AC2C204002420C5 /* Resources */,
+				C8827A742DBC6299C4BB7B27 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLTestToolsDemo;
+			productName = HLTestToolsDemo;
+			productReference = 4F339A6C1AC2C204002420C5 /* HLTestToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F339A841AC2C204002420C5 /* HLTestToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F339A921AC2C204002420C5 /* Build configuration list for PBXNativeTarget "HLTestToolsDemoTests" */;
+			buildPhases = (
+				4F339A811AC2C204002420C5 /* Sources */,
+				4F339A821AC2C204002420C5 /* Frameworks */,
+				4F339A831AC2C204002420C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F339A871AC2C204002420C5 /* PBXTargetDependency */,
+			);
+			name = HLTestToolsDemoTests;
+			productName = HLTestToolsDemoTests;
+			productReference = 4F339A851AC2C204002420C5 /* HLTestToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F339A641AC2C204002420C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = lhl;
+				TargetAttributes = {
+					4F339A6B1AC2C204002420C5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F339A841AC2C204002420C5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4F339A6B1AC2C204002420C5;
+					};
+				};
+			};
+			buildConfigurationList = 4F339A671AC2C204002420C5 /* Build configuration list for PBXProject "HLTestToolsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F339A631AC2C204002420C5;
+			productRefGroup = 4F339A6D1AC2C204002420C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F339A6B1AC2C204002420C5 /* HLTestToolsDemo */,
+				4F339A841AC2C204002420C5 /* HLTestToolsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F339A6A1AC2C204002420C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F339A7B1AC2C204002420C5 /* Main.storyboard in Resources */,
+				4F339A801AC2C204002420C5 /* LaunchScreen.xib in Resources */,
+				4F339A7D1AC2C204002420C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F339A831AC2C204002420C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8827A742DBC6299C4BB7B27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E381A8189A832EB60F86D0A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F339A681AC2C204002420C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F339AA61AC2C653002420C5 /* DownloadSpeedViewController.m in Sources */,
+				4FCA3DBE1ACA9C2F00743D07 /* MBEvents.m in Sources */,
+				4FCA3DC51ACA9D3C00743D07 /* BatteryViewController.m in Sources */,
+				4FCA3DB71ACA9B8300743D07 /* DownSpeed.m in Sources */,
+				4F339A781AC2C204002420C5 /* ViewController.m in Sources */,
+				4F339A751AC2C204002420C5 /* AppDelegate.m in Sources */,
+				4FCA3DBA1ACA9C1700743D07 /* MBBatteryMonitor.m in Sources */,
+				4F339A721AC2C204002420C5 /* main.m in Sources */,
+				4F713D571B131DAC00D1165E /* HLPingViewController.m in Sources */,
+				4F339A981AC2C290002420C5 /* HLToolsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F339A811AC2C204002420C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCA3DC61ACA9D3C00743D07 /* BatteryViewController.m in Sources */,
+				4F339A8C1AC2C204002420C5 /* HLTestToolsDemoTests.m in Sources */,
+				4FCA3DBF1ACA9C2F00743D07 /* MBEvents.m in Sources */,
+				4FCA3DC01ACA9C3400743D07 /* MBBatteryMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F339A871AC2C204002420C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F339A6B1AC2C204002420C5 /* HLTestToolsDemo */;
+			targetProxy = 4F339A861AC2C204002420C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F339A791AC2C204002420C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F339A7A1AC2C204002420C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F339A7E1AC2C204002420C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F339A7F1AC2C204002420C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F339A8D1AC2C204002420C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F339A8E1AC2C204002420C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F339A901AC2C204002420C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A24C17C8AC11D59A858532C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLTestToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F339A911AC2C204002420C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D6CC2A6A9580C66C2D7B62 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLTestToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F339A931AC2C204002420C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HLTestToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLTestToolsDemo.app/HLTestToolsDemo";
+			};
+			name = Debug;
+		};
+		4F339A941AC2C204002420C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HLTestToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLTestToolsDemo.app/HLTestToolsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F339A671AC2C204002420C5 /* Build configuration list for PBXProject "HLTestToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F339A8D1AC2C204002420C5 /* Debug */,
+				4F339A8E1AC2C204002420C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F339A8F1AC2C204002420C5 /* Build configuration list for PBXNativeTarget "HLTestToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F339A901AC2C204002420C5 /* Debug */,
+				4F339A911AC2C204002420C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F339A921AC2C204002420C5 /* Build configuration list for PBXNativeTarget "HLTestToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F339A931AC2C204002420C5 /* Debug */,
+				4F339A941AC2C204002420C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F339A641AC2C204002420C5 /* Project object */;
+}

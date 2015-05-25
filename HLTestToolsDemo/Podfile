@@ -1,0 +1,13 @@
+platform:ios,'7.0'
+pod 'AFURLConnectionByteSpeedMeasure', '~> 1.0.1'
+pod 'Ubertesters', '~> 2.0.3'
+pod 'SPLPing'   # ping ip
+
+# pod 'TestFlightSDK', '~> 3.0.2'
+# pod 'ALSystemUtilities'
+
+
+
+
+# 曹盛杰Cocoa工具包
+pod 'CSJTools', '~> 0.0.7'
